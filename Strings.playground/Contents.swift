@@ -30,4 +30,21 @@ let fifthCharacter = playground[end]
 let range = start...end
 let firstFive = playground[range]
 
+// Bronze Challenge
+var empty: String = ""
+let emptyStart = empty.startIndex
+let emptyEnd = empty.endIndex
+if emptyEnd == emptyStart {
+    print("string is empty")
+}
+
+if empty.isEmpty {
+    print("string is empty")
+}
+
+var helloString = "\u{0068}\u{0065}\u{006C}\u{006C}\u{006F}"
+
+
+
+
 
